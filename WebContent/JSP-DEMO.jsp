@@ -32,8 +32,6 @@ Is 2 is greater than 4 ? <%= 2>4 %> <br> <br>
 }
 
 %>
-
-
 	    
 <h3>Lower to Upper using Scriplets: <%= makeItLower("UPPPER TO LOWER") %></h3>
 
