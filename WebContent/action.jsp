@@ -5,7 +5,7 @@ Method used: request.getParameter("fname")
 Your First Name is : <%= request.getParameter("fname") %> <br>
 Your Last  Name is : <%= request.getParameter("lname") %><br>
 Your Country    is : <%= request.getParameter("country") %><br>
-Your Country    is : <% String[] langs =  request.getParameterValues("lang"); 
+Languages      are : <% String[] langs =  request.getParameterValues("lang"); 
 						for (String x: langs){
 							out.println ("<li>" + x + "</li>");
 						}
@@ -19,7 +19,7 @@ Method used: $(param.fname)
 Your First Name is :  ${param.fname} <br>
 Your Last  Name is :  ${param.lname} <br>
 Your Country    is :  ${param.country}<br>
-Your Country    is : <% String[] langsdup =  request.getParameterValues("lang"); 
+Languages	   are : <% String[] langsdup =  request.getParameterValues("lang"); 
 						for (String x: langsdup){
 							out.println ("<li>" + x + "</li>");
 						}
